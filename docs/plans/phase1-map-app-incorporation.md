@@ -62,17 +62,32 @@ Nothing here closes an issue outright, but several (#5, #8, #15, #16, #17,
 #18) go from "design from scratch" to "review and extend an existing,
 verified design" — which is a meaningfully different, smaller task.
 
-## 3. What this does (and doesn't) resolve from the scaffolding plan's open decisions
+## 3. What this does (and doesn't) resolve from open decisions
 
-- **Backend (Supabase vs. custom Node/Postgres):** this doesn't force the
-  choice, but it removes a reason to hesitate on Supabase — Supabase is
-  hosted Postgres with PostGIS available as a toggled-on extension, and this
-  schema already targets Postgres 16 + PostGIS 3.4 with no vendor-specific
-  syntax. `schema.sql` should apply to a Supabase project close to
-  unmodified. If we go custom Node/Postgres instead, it applies exactly as
-  written today. Recommend keeping the existing Supabase recommendation.
+Since this plan was first drafted, Stephen has merged `docs/DECISIONLOG.md`
+and `docs/research/python-backend-react-native-stack.md`, which reframe the
+backend question (Decision #1/#6) as Supabase-for-CRUD plus a separate
+Python/FastAPI service for geospatial/ETL/photogrammetry work (his
+recommended "Option D" hybrid, still open pending Max's sign-off) — not just
+"Supabase vs. Node" as the original scaffolding plan framed it.
+
+- **Backend:** good news either way — this schema is vanilla PostgreSQL 16 +
+  PostGIS 3.4 SQL with nothing Supabase-specific in it, so it applies
+  unmodified whether it ends up as a Supabase migration, a migration owned by
+  a Python/FastAPI service (which Stephen's doc suggests is the natural owner
+  of the geospatial schema under his hybrid option), or both reading the same
+  database under the hybrid model. This plan doesn't need the backend
+  decision resolved first — it's compatible with every option on the table.
 - **Maps provider (Mapbox vs. MapLibre):** no effect either way — the data's
   in GeoJSON, which both consume natively.
+- **Cross-reference — Milestone 12 (Terrain Mapping):** Stephen also opened a
+  new milestone for a drone/photogrammetry 3D terrain-map idea, which is
+  squarely geospatial too. Not proposing anything concrete here, but the
+  `locations`/`features` tables this plan brings in are a plausible future
+  anchor point for terrain-map assets (e.g. a location eventually linking to
+  a 3D scan) — worth Stephen and Max both keeping in mind when M12's issues
+  get scoped out, rather than the two efforts building parallel geospatial
+  schemas by accident.
 
 ## 4. Proposed integration steps
 
@@ -119,6 +134,9 @@ verified design" — which is a meaningfully different, smaller task.
   the Garage schema issue as fully done?
 - Any objection to filing the two new issues in §4.5, or would you rather
   fold those into existing issues instead of adding new ones?
+- Worth looping Stephen in before executing, given the geospatial overlap
+  with his Milestone 12 work (§3) and that this schema will factor into
+  whichever backend option gets picked in decision #1/#6.
 
 Once you sign off, I'll move the actual files into `rcx_drive`, adjust the
 schema as agreed, and update the GitHub issues/milestones accordingly.

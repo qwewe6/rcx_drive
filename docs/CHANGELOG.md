@@ -46,6 +46,16 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
 - Did all of the above on branch `stephen-scaffold-2`, opened as a PR for Max to
   review.
 
+### 2026-09-07 — Max (via Claude)
+- Reviewed `~/Desktop/rcxd_map_app` (prior local work: a verified PostgreSQL 16 +
+  PostGIS 3.4 schema, an 81-location seed dataset from Max's Google Maps
+  "Crawling" list, and a Phase I map product spec) and wrote up
+  `docs/plans/phase1-map-app-incorporation.md` proposing how to bring it into
+  this repo. Maps the existing schema against milestones/issues #5, #8, #15–#22,
+  cross-references it against decision #1/#6 and the new Milestone 12 (Terrain
+  Mapping). No files moved and no issues changed yet — pending sign-off from
+  Max and Stephen.
+
 ## Prior to this changelog
 
 Backfilled from git history, for continuity:
