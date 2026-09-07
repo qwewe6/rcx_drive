@@ -4,14 +4,24 @@ node_modules/
 .expo-shared/
 dist/
 web-build/
+expo-env.d.ts
+.kotlin/
+.metro-health-check*
+*.tsbuildinfo
 *.jks
 *.p8
 *.p12
 *.key
+*.pem
 *.mobileprovision
 *.orig.*
 .env
 .env.local
+.env*.local
+
+# generated native folders (managed workflow - regenerate via `expo prebuild`)
+/ios
+/android
 
 # macOS
 .DS_Store
