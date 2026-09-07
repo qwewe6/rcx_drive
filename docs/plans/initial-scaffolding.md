@@ -1,6 +1,10 @@
 # Initial Scaffolding Plan — RCxDrive
 
-Status: **Draft — pending sign-off before any code is written**
+Status: **Repo + GitHub board live — pending sign-off on §6 open decisions before any feature code is written**
+
+Repo: https://github.com/qwewe6/rcx_drive
+Milestones/issues: all 11 milestones from §7 are created with an initial issue breakdown
+(35 issues total) — see https://github.com/qwewe6/rcx_drive/milestones
 Owner: Kk + SR Dev
 Source material: `docs/research/strava-teardown.md` (the Strava analysis / RCxDrive translation doc)
 
@@ -108,7 +112,7 @@ piece by piece.
 10. **Monetization — Sponsored Challenges & Affiliate** — brand challenge system, affiliate links for parts/mods.
 11. **Web Dashboard** (post-MVP) — desktop analytics view.
 
-This list is a starting proposal — confirm/adjust before milestones are created in GitHub.
+Created as GitHub milestones 1–11 with an initial issue breakdown per milestone (see repo link above). Treat this first pass as a starting layout, not a fixed spec — reorder, split, or merge issues as the team scopes each milestone out for real.
 
 ## 8. Explicit non-goals of this plan
 
