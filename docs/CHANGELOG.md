@@ -1,0 +1,60 @@
+# Changelog
+
+A running, human-and-agent-readable log of work done on RCxDrive. Max and Stephen
+are working on separate machines/sessions (much of it via Claude Code) — this file
+is the cheapest way for either of us, or an agent picking up a session, to see what
+changed recently without re-reading every diff or issue thread.
+
+**Rule:** any work session (code, docs, schema, GitHub config) ends with an entry
+here. See [`docs/rules/changelog.md`](rules/changelog.md). Coding agents should
+add/update the entry for the current session as part of finishing the task.
+
+## Entry format
+
+```
+### YYYY-MM-DD — <Name>
+- Brief, plain-language description of what changed and why. Link an issue/PR/doc
+  if one exists. One line per notable change; skip the trivial stuff (typo fixes,
+  formatting-only commits).
+```
+
+Keep entries short — this is a sync log, not a release-notes doc. If a change needs
+more explanation than 1-2 lines, it probably deserves its own plan doc or ADR-style
+entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
+
+---
+
+## [Unreleased]
+
+### 2026-09-06 — Stephen
+- Added `docs/ux/user-personas.md`: persona table mapping the three core user types
+  (from the Strava teardown doc) to the features/milestones that serve them, for
+  prioritization.
+- Added this file (`docs/CHANGELOG.md`) and the changelog-update rule at
+  `docs/rules/changelog.md`.
+- Added `docs/DECISIONLOG.md` — a single running table of open/closed cross-cutting
+  decisions, seeded with the open items from `docs/plans/initial-scaffolding.md` §6
+  plus a couple new ones raised today.
+- Added `docs/research/python-backend-react-native-stack.md`: weighs a Python
+  (FastAPI) backend + React Native mobile stack against the Node/Supabase path,
+  given both engineers' Python background and upcoming geospatial/ETL/analytics
+  needs (drone photogrammetry terrain mapping).
+- Opened GitHub [Milestone 12, "Terrain Mapping — Drone & Crowdsourced
+  Photogrammetry"](https://github.com/qwewe6/rcx_drive/milestone/12), with an
+  initial 5-issue breakdown (#36–#40) for the 3D course-builder idea.
+- Added root `CLAUDE.md` with repo/team conventions for Claude Code sessions.
+- Did all of the above on branch `stephen-scaffold-2`, opened as a PR for Max to
+  review.
+
+## Prior to this changelog
+
+Backfilled from git history, for continuity:
+
+### 2026-09-06/07 — Max
+- Initial commit: repo created, LICENSE added.
+- Added `docs/plans/initial-scaffolding.md` and `docs/research/strava-teardown.md`
+  (the Strava architecture/loop/revenue teardown and its RCxDrive translation).
+- Created all 11 GitHub milestones (Foundation & Scaffolding through Web Dashboard)
+  with a 35-issue initial breakdown across them.
+- Marked the scaffolding plan status as "repo + GitHub board live," pending
+  sign-off on the plan's §6 open decisions before feature code starts.
