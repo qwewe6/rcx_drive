@@ -45,8 +45,9 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   separate Python component) and #6 (Python, not Node, for that component) per
   the call; added notes to #2 (map provider still open, research assigned to
   Stephen) and #7 (terrain-mapping revenue use case reconfirmed); added #9
-  (one-issue-per-PR workflow policy) and #10 (build order: User → Garage →
-  Map) as new closed decisions.
+  (one-issue-per-PR as a foundational-stage *guideline*, not a hard rule —
+  corrected after an initial pass called it a "policy") and #10 (build order:
+  User → Garage → Map) as new closed decisions.
 - GitHub: opened issues [#45](https://github.com/qwewe6/rcx_drive/issues/45)
   (research Mapbox vs. MapLibre, Milestone 5) and
   [#46](https://github.com/qwewe6/rcx_drive/issues/46) (photo/video evidence on
