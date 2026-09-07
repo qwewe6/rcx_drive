@@ -26,6 +26,38 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
 
 ## [Unreleased]
 
+### 2026-09-07 — Stephen
+- Reformatted `docs/meetings/20260907_sprint_planning.md` (Max & Stephen's first
+  sprint planning call) into proper Markdown — structure/formatting only, no
+  content changes.
+- Updated `docs/ux/user-personas.md` with more detail surfaced on that call:
+  Comp Crawler needs telemetry + video evidence to make a claimed score
+  provable, not just precise; Community Leader gets a creator/subscriber
+  "replay the line I posted" loop and a terrain-scanning revenue angle.
+  Reconfirmed (didn't change) the existing "Course Builder / Event Organizer"
+  cross-cutting note.
+- Added `docs/ux/use-cases-and-differentiators.md`: the detailed use cases from
+  the call (segments → features/lines, telemetry+video "social policing",
+  creator/subscriber replay loop, terrain mapping as a revenue channel, vehicle
+  metrics vs. human biometrics) plus an explicit Strava-vs-RCxDrive
+  differentiators table, referencing `docs/research/strava-teardown.md`.
+- Updated `docs/DECISIONLOG.md`: closed decision #1 (Supabase primary backend +
+  separate Python component) and #6 (Python, not Node, for that component) per
+  the call; added notes to #2 (map provider still open, research assigned to
+  Stephen) and #7 (terrain-mapping revenue use case reconfirmed); added #9
+  (one-issue-per-PR workflow policy) and #10 (build order: User → Garage →
+  Map) as new closed decisions.
+- GitHub: opened issues [#45](https://github.com/qwewe6/rcx_drive/issues/45)
+  (research Mapbox vs. MapLibre, Milestone 5) and
+  [#46](https://github.com/qwewe6/rcx_drive/issues/46) (photo/video evidence on
+  check-ins for crawler-score verification, Milestone 7); added call-context
+  comments to #19, #20, #22, #24. This is in addition to the
+  `phase1-map-app-incorporation.md`-driven GitHub updates Max already made
+  today to #5/#8/#15/#16/#17/#18 and new issues #42/#43 — the call's "align
+  project milestones" next step confirmed those stay as-is.
+- Did all of the above on branch `docs/sprint-planning-1`, opened as a PR for
+  Max to review.
+
 ### 2026-09-06 — Stephen
 - Added `docs/ux/user-personas.md`: persona table mapping the three core user types
   (from the Strava teardown doc) to the features/milestones that serve them, for
