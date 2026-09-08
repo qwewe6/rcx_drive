@@ -26,27 +26,35 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
 
 ## [Unreleased]
 
-### 2026-09-06 — Stephen
-- Added `docs/ux/user-personas.md`: persona table mapping the three core user types
-  (from the Strava teardown doc) to the features/milestones that serve them, for
-  prioritization.
-- Added this file (`docs/CHANGELOG.md`) and the changelog-update rule at
-  `docs/rules/changelog.md`.
-- Added `docs/DECISIONLOG.md` — a single running table of open/closed cross-cutting
-  decisions, seeded with the open items from `docs/plans/initial-scaffolding.md` §6
-  plus a couple new ones raised today.
-- Added `docs/research/python-backend-react-native-stack.md`: weighs a Python
-  (FastAPI) backend + React Native mobile stack against the Node/Supabase path,
-  given both engineers' Python background and upcoming geospatial/ETL/analytics
-  needs (drone photogrammetry terrain mapping).
-- Opened GitHub [Milestone 12, "Terrain Mapping — Drone & Crowdsourced
-  Photogrammetry"](https://github.com/qwewe6/rcx_drive/milestone/12), with an
-  initial 5-issue breakdown (#36–#40) for the 3D course-builder idea.
-- Added root `CLAUDE.md` with repo/team conventions for Claude Code sessions.
-- Did all of the above on branch `stephen-scaffold-2`, opened as a PR for Max to
-  review.
+### 2026-09-08 — Max (via Claude)
+
+- Merged PR #44 (Milestone 1: Foundation & Scaffolding) into `main`.
+- Clarified with Max that "Milestone 1" in the prior request meant the first
+  _feature_ milestone from his perspective — GitHub's actual
+  [Milestone 2, "Accounts & Auth"](https://github.com/qwewe6/rcx_drive/milestone/2)
+  — not the scaffolding work, which stands as-is under its own Milestone 1.
+- Completed Milestone 2 (Accounts & Auth), closing issues #5–#7:
+  - **#5 Design user data model** — `docs/plans/user-data-model.md` +
+    `supabase/migrations/0002_user_profiles.sql` (a `profiles` table 1:1 with
+    `auth.users`, RLS, auto-create-on-signup trigger).
+  - **#6 Sign up / login flow** — `src/services/auth/` (an `AuthService`
+    interface with a default `mockAuthService` backed by AsyncStorage, and a
+    ready-but-unwired `supabaseAuthService`), `src/hooks/useAuth.tsx`
+    (context provider + session state), auth-gated routing in
+    `app/_layout.tsx`, and `(auth)/login.tsx` + `(auth)/sign-up.tsx` screens.
+  - **#7 Build profile screen** — `(tabs)/profile.tsx` now does real
+    view/edit of display name and bio, plus sign-out.
+  - No Supabase project is provisioned yet (per Max, 2026-09-07), so the app
+    runs on `mockAuthService` by default; flipping to `supabaseAuthService`
+    is just setting `EXPO_PUBLIC_SUPABASE_URL`/`EXPO_PUBLIC_SUPABASE_ANON_KEY`
+    (see `.env.example`), no code change.
+  - Added `@supabase/supabase-js` and `@react-native-async-storage/async-storage`
+    as dependencies; added Jest coverage for `mockAuthService`.
+  - Opened as PR `max-milestone2-accounts-auth` -> `main` for Max and Stephen
+    to review.
 
 ### 2026-09-07 — Max (via Claude)
+
 - Reviewed `~/Desktop/rcxd_map_app` (prior local work: a verified PostgreSQL 16 +
   PostGIS 3.4 schema, an 81-location seed dataset from Max's Google Maps
   "Crawling" list, and a Phase I map product spec) and wrote up
@@ -76,6 +84,7 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
 Backfilled from git history, for continuity:
 
 ### 2026-09-06/07 — Max
+
 - Initial commit: repo created, LICENSE added.
 - Added `docs/plans/initial-scaffolding.md` and `docs/research/strava-teardown.md`
   (the Strava architecture/loop/revenue teardown and its RCxDrive translation).

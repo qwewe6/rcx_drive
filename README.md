@@ -24,12 +24,27 @@ this is a known Expo ecosystem issue, not specific to this repo.)
 - `eas.json` has a `development` build profile — BLE (Racebox pairing) needs
   an EAS dev client build, not Expo Go.
 
+## Auth
+
+Sign-up/login/profile (Milestone 2 — Accounts & Auth) run against
+`src/services/auth/`, which has two interchangeable implementations behind
+one `AuthService` interface (`src/services/auth/AuthService.ts`):
+
+- **Mock (default)** — `mockAuthService.ts`, backed by `AsyncStorage` on
+  the device. No backend required; this is what runs out of the box.
+- **Supabase** — `supabaseAuthService.ts`, wired against
+  `supabase/migrations/0002_user_profiles.sql`. Activates automatically
+  once `EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_ANON_KEY` are
+  set (copy `.env.example` to `.env.local` and fill them in) — no code
+  changes needed. See `docs/plans/user-data-model.md`.
+
 ## Docs
 
 - Research: [`docs/research/`](docs/research/) — the Strava teardown, the
   Phase I map app spec, and stack research feeding the plans below.
 - Plans: [`docs/plans/`](docs/plans/) — one plan doc per major initiative,
-  starting with [`initial-scaffolding.md`](docs/plans/initial-scaffolding.md).
+  starting with [`initial-scaffolding.md`](docs/plans/initial-scaffolding.md)
+  and [`user-data-model.md`](docs/plans/user-data-model.md).
 - [`docs/DECISIONLOG.md`](docs/DECISIONLOG.md) — open/closed cross-cutting
   decisions.
 - [`docs/ux/user-personas.md`](docs/ux/user-personas.md) — who each feature
