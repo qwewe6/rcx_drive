@@ -26,6 +26,22 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
 
 ## [Unreleased]
 
+### 2026-09-08 — Stephen (via Claude)
+
+- Added `docs/research/mapbox-vs-maplibre.md`: cost/capability research for
+  decision #2, per the 2026-09-07 sprint planning call's action item and
+  [issue #45](https://github.com/qwewe6/rcx_drive/issues/45). Verified current
+  Mapbox pricing (25K MAU/month free on mobile, ~$4/1,000 MAU after; 50K web
+  map loads free) against MapLibre-based alternatives (Esri World Imagery's
+  2M free tile requests/month for satellite, MapTiler/Stadia Maps for vector
+  tiles, or self-hosting via Protomaps/PMTiles).
+- Closed decision #2 in `docs/DECISIONLOG.md`: **MapLibre GL JS** + Esri World
+  Imagery + a hosted vector-tile provider, given no navigation/geocoding need
+  and off-road terrain visibility mattering more than street styling for this
+  product. Revisit if that changes.
+- Opened as PR on branch `docs/45-map-lib-decision` -> `main`, tagged Max for
+  review, closes issue #45 on merge.
+
 ### 2026-09-08 — Max (via Claude)
 
 - Merged PR #44 (Milestone 1: Foundation & Scaffolding) into `main`.
