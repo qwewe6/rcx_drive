@@ -1,8 +1,8 @@
 import { Tabs } from "expo-router";
 
-// Foundation-only tab skeleton (Milestone 1). Icons, auth-gating, and real
-// screen content land with their own milestones (Accounts & Auth, Garage,
-// Map & Route/Line Discovery, Social Feed & Kudos).
+// Tab skeleton. Auth-gating now lives in the root layout (app/_layout.tsx —
+// unauthenticated users never reach this navigator). Icons and real screen
+// content for Map/Garage/Feed land with their own milestones.
 export default function TabsLayout() {
   return (
     <Tabs>
