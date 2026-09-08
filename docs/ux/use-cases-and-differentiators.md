@@ -3,8 +3,8 @@
 Source: the 2026-09-07 sprint planning call (`docs/meetings/20260907_sprint_planning.md`),
 which went deeper on several use cases than the original Strava teardown
 (`docs/research/strava-teardown.md`) had space for. This doc exists to capture
-those use-case narratives in one place and make explicit *where RCxDrive
-deliberately diverges from Strava*, rather than leaving that only implicit in
+those use-case narratives in one place and make explicit _where RCxDrive
+deliberately diverges from Strava_, rather than leaving that only implicit in
 the teardown's 1:1 feature translation. Cross-reference
 [`docs/ux/user-personas.md`](user-personas.md) for who each use case serves.
 
@@ -23,8 +23,8 @@ feature, crawls it, and the app matches their GPS trail to the feature to
 produce a comparable score (see M6, issues #19–#20).
 
 **Why this isn't a 1:1 copy:** Strava's segment matching only needs to snap a
-GPS trail to a road. RCxDrive's feature matching also has to identify *which
-line* through/over the feature was taken, since two lines on the same feature
+GPS trail to a road. RCxDrive's feature matching also has to identify _which
+line_ through/over the feature was taken, since two lines on the same feature
 can have very different difficulty — the matching engine and the score formula
 both need to be line-aware, not just feature-aware. This is new context for
 issue #19/#20 beyond what the original milestone breakdown assumed.
@@ -45,7 +45,7 @@ the **"social policing"** loop.
   bearing here in a way it isn't for Strava.
 - The Phase I schema already has the right shape for this — a `checkin` tied
   to a `line`, with polymorphic `media` (photo/video) attachments (see
-  `docs/plans/phase1-map-app-incorporation.md` §1–2) — but the *product*
+  `docs/plans/phase1-map-app-incorporation.md` §1–2) — but the _product_
   framing of check-in media as a verification mechanic, not just a decorative
   photo, is new from this call. See the new GitHub issue opened under Social
   Feed & Kudos (M7) for tracking this explicitly.
@@ -59,9 +59,9 @@ A concrete version of Strava's Discovery & Planning Loop, specific to RC
 crawling's video-heavy community culture: a Community Leader posts a
 line/video of them crawling a feature; a subscriber sees it, goes and attempts
 the same feature/line with their own rig, and then compares their run
-(telemetry + video) against the creator's. From the original notes: *"I'm
+(telemetry + video) against the creator's. From the original notes: _"I'm
 crawling a line I saw this YouTuber crawl last week. Wanted to see if my rig
-could do it."*
+could do it."_
 
 - Strava's equivalent (a public segment on a popular route) is anonymous and
   aggregate — there's no single "creator" a follower is directly chasing.
@@ -102,7 +102,7 @@ This changes what "improvement" means for the product:
 
 - Strava's premium analytics upsell is built around training zones and
   physiological fatigue tracking. RCxDrive's equivalent upsell is around
-  *mechanical* optimization — rig tuning, mod comparisons, per-build telemetry
+  _mechanical_ optimization — rig tuning, mod comparisons, per-build telemetry
   history — which is why the Garage (M3) and per-rig stats data model matters
   as much as the telemetry pipeline itself for the Comp Crawler persona.
 - It also means RCxDrive doesn't need (and shouldn't build toward) any
@@ -110,10 +110,10 @@ This changes what "improvement" means for the product:
 
 ## Summary: Strava vs. RCxDrive
 
-| Dimension | Strava | RCxDrive |
-|---|---|---|
-| Competitive unit | Human athlete (segments/KOM) | Vehicle + line (feature/line + Crawler Score) |
-| Core metric type | Physiological (HR, power, cadence) | Mechanical/vehicle (speed, incline/lean, motor temp) |
-| Result verification | Device data only, trusted as-is | Telemetry **+** video/photo evidence ("social policing") |
-| Map "supply side" | Passive aggregate heatmap only | Passive heatmap **+** active high-fidelity terrain surveys (drone/LiDAR) as a contribution/revenue channel |
-| Creator/follower loop | Anonymous public segments | Creator-specific "replay the line I posted" loop, tied to video content |
+| Dimension             | Strava                             | RCxDrive                                                                                                   |
+| --------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Competitive unit      | Human athlete (segments/KOM)       | Vehicle + line (feature/line + Crawler Score)                                                              |
+| Core metric type      | Physiological (HR, power, cadence) | Mechanical/vehicle (speed, incline/lean, motor temp)                                                       |
+| Result verification   | Device data only, trusted as-is    | Telemetry **+** video/photo evidence ("social policing")                                                   |
+| Map "supply side"     | Passive aggregate heatmap only     | Passive heatmap **+** active high-fidelity terrain surveys (drone/LiDAR) as a contribution/revenue channel |
+| Creator/follower loop | Anonymous public segments          | Creator-specific "replay the line I posted" loop, tied to video content                                    |

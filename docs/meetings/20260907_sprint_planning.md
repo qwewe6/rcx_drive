@@ -57,18 +57,18 @@ performance standards across the codebase.
 ## Next steps
 
 - [x] **Steve Marshall** — Research Mapbox vs. MapLibre: compare the
-  differences and implementation requirements (asked Claude to weigh the
-  trade-offs) to make an informed choice for the base map.
+      differences and implementation requirements (asked Claude to weigh the
+      trade-offs) to make an informed choice for the base map.
 - [ ] **The group** — Align project milestones: review
-  `docs/plans/phase1-map-app-incorporation.md` and integrate its contents into
-  the current project milestones/issues.
+      `docs/plans/phase1-map-app-incorporation.md` and integrate its contents into
+      the current project milestones/issues.
 - [x] **Steve Marshall** — Update project documentation: use this meeting's
-  transcript to summarize key points, update the UX folder, refresh related
-  tickets, capture decisions in the log, and refine user personas. *(this
-  document + the accompanying doc/ticket updates are that work.)*
+      transcript to summarize key points, update the UX folder, refresh related
+      tickets, capture decisions in the log, and refine user personas. _(this
+      document + the accompanying doc/ticket updates are that work.)_
 - [ ] **Max Becker** — Complete Milestone 1: update the decision log to confirm
-  Supabase usage with separate Python tooling, complete Milestone 1, and submit
-  a merge request for review by Steve and Stephen.
+      Supabase usage with separate Python tooling, complete Milestone 1, and submit
+      a merge request for review by Steve and Stephen.
 
 ## Discussion details
 
