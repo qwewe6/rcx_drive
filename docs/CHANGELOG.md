@@ -55,6 +55,21 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   cross-references it against decision #1/#6 and the new Milestone 12 (Terrain
   Mapping). No files moved and no issues changed yet — pending sign-off from
   Max and Stephen.
+- Max approved the Phase I incorporation plan and confirmed the backend
+  direction (hybrid: Supabase for the app shell, a genuinely separate
+  Python/FastAPI service for telemetry/geospatial/ETL/photogrammetry work)
+  - closed decisions #1 and #6 in `docs/DECISIONLOG.md` accordingly.
+- Brought the Phase I map schema/data into the repo: schema as
+  `supabase/migrations/0001_phase1_map_schema.sql`, the 81-location seed
+  dataset + raw export under `database/`, and the Phase I product spec as
+  `docs/research/phase1-map-app-spec.md`. Provisioning Supabase and running
+  the migration/seed against it is tracked separately, not done here.
+- Completed Milestone 1 (Foundation & Scaffolding), closing issues #1-#4:
+  Expo app scaffold (TypeScript + expo-router, `(tabs)` skeleton), EAS
+  `development` build profile + expo-dev-client, ESLint/Prettier/TypeScript
+  strict/Jest baseline (all four checks passing), and GitHub Actions CI.
+  Opened as PR `max-milestone1-scaffold` -> `main` for Max and Stephen to
+  review.
 
 ## Prior to this changelog
 

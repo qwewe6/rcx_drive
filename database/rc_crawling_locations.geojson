@@ -1,0 +1,1544 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0611461,
+          39.5317988
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "title": "Unnamed pin",
+        "note": "rockler wood working reccomendation, flight place, rc track, oval track, crawling spot.",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 14.8,
+        "source_url": "https://www.google.com/maps/search/39.5317988,-105.0611461"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1563548,
+          40.4191736
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "title": "Devils Backbone Trail",
+        "note": "was a recommended from a YouTube subscriber up north in Colorado, would be smart to go here to get some data points for app users up north.",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 47.8,
+        "source_url": "https://www.google.com/maps/place/Devils+Backbone+Trail/data=!4m2!3m1!1s0x876951d8c31884fb:0x993a6965c04fdabe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1153264,
+          39.7753346
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7753346,-105.1153264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1150196,
+          39.7753714
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7753714,-105.1150196"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1147158,
+          39.7754619
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7754619,-105.1147158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.114738,
+          39.7753647
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7753647,-105.114738"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1154226,
+          39.7757479
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7757479,-105.1154226"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5511104,
+          40.4355391
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "title": "Bridal Veil Falls",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 56.5,
+        "source_url": "https://www.google.com/maps/place/Bridal+Veil+Falls/data=!4m2!3m1!1s0x87696e59a580fb29:0x7974705ff30ceb6b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3767184,
+          39.5624678
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "title": "Maxwell Falls Trailhead",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 23.9,
+        "source_url": "https://www.google.com/maps/place/Maxwell+Falls+Trailhead/data=!4m2!3m1!1s0x876b74e3cd9940bf:0xd6fc5e03e1b9063c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.9982852,
+          49.4379014
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "title": "Tablelands",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": true,
+        "miles_from_denver": 2365.4,
+        "source_url": "https://www.google.com/maps/place/Tablelands/data=!4m2!3m1!1s0x4b7be37aa7b68a85:0xb81df2dcc4d4ba33"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8231956,
+          38.9077436
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "title": "Northeast Colorado Springs",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 58.1,
+        "source_url": "https://www.google.com/maps/place/Northeast+Colorado+Springs/data=!4m2!3m1!1s0x87134e3541538469:0x4f524ea29e26736a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.106456,
+          39.7055366
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "title": "Unnamed pin",
+        "note": "Comp spot, known by people",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.6,
+        "source_url": "https://www.google.com/maps/search/39.7055366,-105.106456"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.422194,
+          39.930528
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "title": "39°55'49.9\"N 105°25'19.9\"W",
+        "note": "From comp crawler fb group casey",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 26.5,
+        "source_url": "https://www.google.com/maps/search/39.930528,-105.422194"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3549395,
+          39.910144
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "title": "Coal Creek",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 22.7,
+        "source_url": "https://www.google.com/maps/place/Coal+Creek/data=!4m2!3m1!1s0x876b9516b29516f7:0x5446c0aebc6fe01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.789706,
+          39.3518566
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "title": "Lost Canyon Ranch Open Space",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 28.8,
+        "source_url": "https://www.google.com/maps/place/Lost+Canyon+Ranch+Open+Space/data=!4m2!3m1!1s0x876cbd755aa1c017:0xdfe4ebda06444387"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8122649,
+          39.7046034
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "title": "653 S Fraser St",
+        "note": "From aaron rock pile aurora",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 9.8,
+        "source_url": "https://www.google.com/maps/place/653+S+Fraser+St/data=!4m2!3m1!1s0x876c62edc152d233:0x1ca1446826f6d9e8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1643424,
+          39.7489831
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 9.3,
+        "source_url": "https://www.google.com/maps/search/39.7489831,-105.1643424"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2235441,
+          39.9566683
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "title": "39°57'24.0\"N 105°13'24.8\"W",
+        "note": "From paul",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 19.5,
+        "source_url": "https://www.google.com/maps/search/39.9566683,-105.2235441"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1532337,
+          39.7470918
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 8.7,
+        "source_url": "https://www.google.com/maps/search/39.7470918,-105.1532337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1278895,
+          39.7472846
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.3,
+        "source_url": "https://www.google.com/maps/search/39.7472846,-105.1278895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3464691,
+          39.6234478
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "title": "Alderfer/Three Sisters East Trailhead",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 20.6,
+        "source_url": "https://www.google.com/maps/place/Alderfer%2FThree+Sisters+East+Trailhead/data=!4m2!3m1!1s0x876b9e36a3acca67:0xb4f6baa6ce35df71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3464656,
+          39.6232571
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "title": "Three sisters",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 20.6,
+        "source_url": "https://www.google.com/maps/place/Three+sisters/data=!4m2!3m1!1s0x876b9fa1cf1f0783:0x7e2585dde8bbf15f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2191264,
+          37.4465967
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "title": "4925 Boonsboro Rd #130",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": true,
+        "miles_from_denver": 1395.9,
+        "source_url": "https://www.google.com/maps/place/4925+Boonsboro+Rd+%23130/data=!4m2!3m1!1s0x89b2d79f28399d4d:0x85a16bfa8d155e7b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1522208,
+          39.746793
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 8.6,
+        "source_url": "https://www.google.com/maps/search/39.746793,-105.1522208"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0551876,
+          39.8956737
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "title": "Unnamed pin",
+        "note": "Mini moad",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.3,
+        "source_url": "https://www.google.com/maps/search/39.8956737,-105.0551876"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1964223,
+          39.6554112
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "title": "Unnamed pin",
+        "note": "Rre red side",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 12.4,
+        "source_url": "https://www.google.com/maps/search/39.6554112,-105.1964223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1184337,
+          39.5342331
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 15.7,
+        "source_url": "https://www.google.com/maps/search/39.5342331,-105.1184337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.4086233,
+          39.8329771
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "title": "Black Bear Trail",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 23.1,
+        "source_url": "https://www.google.com/maps/place/Black+Bear+Trail/data=!4m2!3m1!1s0x876bbd0bdd63ac1d:0xcd42e536ac8bc0e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.296997,
+          40.001799
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "title": "Crown Rock Trailhead",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 24.4,
+        "source_url": "https://www.google.com/maps/place/Crown+Rock+Trailhead/data=!4m2!3m1!1s0x876bec1397e74d8f:0xdfd409867a7ebde6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1638506,
+          39.7482554
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 9.2,
+        "source_url": "https://www.google.com/maps/search/39.7482554,-105.1638506"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2958129,
+          40.0139526
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "title": "The Peoples’ Crossing",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 25.0,
+        "source_url": "https://www.google.com/maps/place/The+Peoples%E2%80%99+Crossing/data=!4m2!3m1!1s0x876bec1c1a2404f9:0x75a45deaa1933b8e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2031734,
+          39.6976151
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "title": "Dakota Ridge Trailhead",
+        "note": "Good incline",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.7,
+        "source_url": "https://www.google.com/maps/place/Dakota+Ridge+Trailhead/data=!4m2!3m1!1s0x876b83445c3247e5:0x766b694239d118d1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9035278,
+          39.7819167
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "title": "39°46'54.9\"N 104°54'12.7\"W",
+        "note": "Other crawling comp loc",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 5.5,
+        "source_url": "https://www.google.com/maps/search/39.7819167,-104.9035278"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8641399,
+          35.0782003
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "title": "56 Slate Stone Ln",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": true,
+        "miles_from_denver": 1200.2,
+        "source_url": "https://www.google.com/maps/place/56+Slate+Stone+Ln/data=!4m2!3m1!1s0x885edf413b8c6d7b:0xcfa4df633c95e463"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0424203,
+          39.9009912
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.5,
+        "source_url": "https://www.google.com/maps/search/39.9009912,-105.0424203"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0385911,
+          39.8998466
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.4,
+        "source_url": "https://www.google.com/maps/search/39.8998466,-105.0385911"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1196208,
+          39.742298
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "title": "Applewood",
+        "note": "Bdnshhah",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.9,
+        "source_url": "https://www.google.com/maps/place/Applewood/data=!4m2!3m1!1s0x876b8698cbd8898d:0xa68faad1874c6586"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8979457,
+          41.6248554
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "title": "Fort Phoenix State Reservation",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": true,
+        "miles_from_denver": 1779.4,
+        "source_url": "https://www.google.com/maps/place/Fort+Phoenix+State+Reservation/data=!4m2!3m1!1s0x89e4e15ab6dc1359:0x62f9a7f2e04e87c1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0421745,
+          39.6529927
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.6,
+        "source_url": "https://www.google.com/maps/search/39.6529927,-105.0421745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5114919,
+          39.9646723
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "title": "Nederland Community Center",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 31.7,
+        "source_url": "https://www.google.com/maps/place/Nederland+Community+Center/data=!4m2!3m1!1s0x876bc6c8ae7668ad:0xec746b7baa31dee6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.4295406,
+          39.9320923
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "title": "Pinecliffe",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 26.8,
+        "source_url": "https://www.google.com/maps/place/Pinecliffe/data=!4m2!3m1!1s0x876bc0128cc7ac97:0xbdfdac5a0a37e659"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.2850709,
+          37.8415969
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "title": "Penitente Canyon Campground",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 148.5,
+        "source_url": "https://www.google.com/maps/place/Penitente+Canyon+Campground/data=!4m2!3m1!1s0x8715ecc07042e745:0x11a001597d722803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1620615,
+          39.7485173
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 9.1,
+        "source_url": "https://www.google.com/maps/search/39.7485173,-105.1620615"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2234858,
+          39.7750978
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 12.6,
+        "source_url": "https://www.google.com/maps/search/39.7750978,-105.2234858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8025278,
+          39.3879585
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "title": "Gateway Mesa Open Space",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 26.2,
+        "source_url": "https://www.google.com/maps/place/Gateway+Mesa+Open+Space/data=!4m2!3m1!1s0x876c964d2522570b:0x74d7f136a2037e5f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8003333,
+          39.39025
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "title": "39°23'24.9\"N 104°48'01.2\"W",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 26.1,
+        "source_url": "https://www.google.com/maps/search/39.39025,-104.8003333"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1187713,
+          39.7455308
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7455308,-105.1187713"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1187549,
+          39.7454721
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7454721,-105.1187549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1187754,
+          39.7454295
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7454295,-105.1187754"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1188045,
+          39.7455141
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7455141,-105.1188045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1188324,
+          39.7457067
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7457067,-105.1188324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1190148,
+          39.7457415
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.9,
+        "source_url": "https://www.google.com/maps/search/39.7457415,-105.1190148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1189792,
+          39.7456505
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.9,
+        "source_url": "https://www.google.com/maps/search/39.7456505,-105.1189792"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0424454,
+          39.6524357
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.6,
+        "source_url": "https://www.google.com/maps/search/39.6524357,-105.0424454"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0786091,
+          39.4591655
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "title": "Roxborough Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 19.9,
+        "source_url": "https://www.google.com/maps/place/Roxborough+Park/data=!4m2!3m1!1s0x876b6328b5b37ab7:0x32ac5892df399a6d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5159223,
+          39.7406265
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 27.9,
+        "source_url": "https://www.google.com/maps/search/39.7406265,-105.5159223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1248013,
+          39.7468425
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.2,
+        "source_url": "https://www.google.com/maps/search/39.7468425,-105.1248013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1514031,
+          39.7423094
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 8.6,
+        "source_url": "https://www.google.com/maps/search/39.7423094,-105.1514031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.3064755,
+          40.1111771
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "title": "Buckingham Park Parking Lot",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 30.7,
+        "source_url": "https://www.google.com/maps/place/Buckingham+Park+Parking+Lot/data=!4m2!3m1!1s0x876be52cc639c53f:0x708600df697057f2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1065475,
+          39.760186
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.3,
+        "source_url": "https://www.google.com/maps/search/39.760186,-105.1065475"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7678925,
+          38.8785002
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "title": "Palmer Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 60.6,
+        "source_url": "https://www.google.com/maps/place/Palmer+Park/data=!4m2!3m1!1s0x87134f5bc2a5548f:0x5c5db07280958345"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2384861,
+          39.7333582
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "title": "Lookout Mountain Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 13.2,
+        "source_url": "https://www.google.com/maps/place/Lookout+Mountain+Park/data=!4m2!3m1!1s0x876b9b3d0867f7e7:0x4ac5a39846243b36"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.015164,
+          39.6432008
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "title": "River Run Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/place/River+Run+Park/data=!4m2!3m1!1s0x876c80126f0d1b23:0xc03c2683cfdf7ba0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2011514,
+          39.7449801
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "title": "Thumb Rock",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.2,
+        "source_url": "https://www.google.com/maps/place/Thumb+Rock/data=!4m2!3m1!1s0x876b85bf3d068393:0x871d665489c886d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2026214,
+          39.6543888
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "title": "Mount Morrison South Ridge Trailhead",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 12.7,
+        "source_url": "https://www.google.com/maps/place/Mount+Morrison+South+Ridge+Trailhead/data=!4m2!3m1!1s0x876b831ae539f82d:0x224678f0ef7b802d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1984186,
+          39.6467387
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "title": "Turkey Trot Trail",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 12.8,
+        "source_url": "https://www.google.com/maps/place/Turkey+Trot+Trail/data=!4m2!3m1!1s0x876b833585527715:0x27ccc812877471a6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.078967,
+          39.5206191
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 15.8,
+        "source_url": "https://www.google.com/maps/search/39.5206191,-105.078967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.210469,
+          39.7532755
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 11.7,
+        "source_url": "https://www.google.com/maps/search/39.7532755,-105.210469"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1518658,
+          39.7722996
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 8.9,
+        "source_url": "https://www.google.com/maps/search/39.7722996,-105.1518658"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1261628,
+          39.7472959
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.2,
+        "source_url": "https://www.google.com/maps/search/39.7472959,-105.1261628"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1235336,
+          39.7457141
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.1,
+        "source_url": "https://www.google.com/maps/search/39.7457141,-105.1235336"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1228416,
+          39.7750661
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.5,
+        "source_url": "https://www.google.com/maps/search/39.7750661,-105.1228416"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1131457,
+          39.7751774
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 7.0,
+        "source_url": "https://www.google.com/maps/search/39.7751774,-105.1131457"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1171912,
+          39.7442419
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.8,
+        "source_url": "https://www.google.com/maps/search/39.7442419,-105.1171912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1169659,
+          39.7444051
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.7,
+        "source_url": "https://www.google.com/maps/search/39.7444051,-105.1169659"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1869751,
+          39.7804785
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "title": "Golden",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 10.8,
+        "source_url": "https://www.google.com/maps/place/Golden/data=!4m2!3m1!1s0x876b856fa686bf2b:0xae74906d80c71df"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9220661,
+          39.4726811
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "title": "Daniels Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 18.8,
+        "source_url": "https://www.google.com/maps/place/Daniels+Park/data=!4m2!3m1!1s0x876c9b455257ac25:0x42c2eeb22fd98486"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1072795,
+          39.7188139
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "title": "Nature’s Valley",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.4,
+        "source_url": "https://www.google.com/maps/place/Nature%E2%80%99s+Valley/data=!4m2!3m1!1s0x876b81a059486727:0x5e9757fb81ab1981"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9335105,
+          39.7047202
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "title": "Unnamed pin",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 3.8,
+        "source_url": "https://www.google.com/maps/search/39.7047202,-104.9335105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0462437,
+          39.6515855
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "title": "Bear Creek Park",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 6.7,
+        "source_url": "https://www.google.com/maps/place/Bear+Creek+Park/data=!4m2!3m1!1s0x876b8002ef3a5a11:0x9825c95d3b048b1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.1971311,
+          39.6566798
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "title": "Red Rocks Elementary School",
+        "note": "",
+        "comment": "",
+        "flagged_far_from_denver": false,
+        "miles_from_denver": 12.4,
+        "source_url": "https://www.google.com/maps/place/Red+Rocks+Elementary+School/data=!4m2!3m1!1s0x876b82c263acff71:0xc9e4926c7fa8db10"
+      }
+    }
+  ]
+}

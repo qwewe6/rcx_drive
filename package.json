@@ -1,0 +1,43 @@
+{
+  "name": "rcxdrive",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "expo": "~57.0.20",
+    "expo-constants": "^57.0.17",
+    "expo-dev-client": "^57.0.18",
+    "expo-linking": "^57.0.9",
+    "expo-router": "^57.0.19",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-safe-area-context": "^5.9.1",
+    "react-native-screens": "^4.27.0"
+  },
+  "devDependencies": {
+    "@react-native/jest-preset": "^0.86.3",
+    "@testing-library/react-native": "^14.0.1",
+    "@types/jest": "^30.0.0",
+    "@types/react": "~19.2.2",
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "^57.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "jest": "^30.5.1",
+    "jest-expo": "^57.0.5",
+    "prettier": "^3.9.6",
+    "react-test-renderer": "^19.2.3",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "private": true
+}
