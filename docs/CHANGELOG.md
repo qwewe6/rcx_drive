@@ -41,6 +41,19 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   product. Revisit if that changes.
 - Opened as PR on branch `docs/45-map-lib-decision` -> `main`, tagged Max for
   review, closes issue #45 on merge.
+- Investigated the CI failure on PR #49
+  ([run 34186209546](https://github.com/qwewe6/rcx_drive/actions/runs/34186209546)),
+  reported as a possible Node.js version misconfiguration. It isn't: Node is
+  correctly pinned (`node-version: 22`) and runs fine — the "Node 20
+  deprecated" line is an unrelated GitHub Actions platform-wide notice about
+  the runner's own internal Node, not the project's. The actual failure is
+  the `Format check` step (`prettier --check .`) failing on 8
+  never-formatted files (docs + one `.geojson`), and it turns out **every**
+  push to `main` so far (#44, #48, #49) has failed the same way — a gap from
+  Milestone 1 issue #3 (CI baseline added without ever running
+  `prettier --write .` against existing docs). Filed
+  [issue #50](https://github.com/qwewe6/rcx_drive/issues/50) in Milestone 1
+  with the full root-cause writeup and a proposed fix, assigned to Stephen.
 
 ### 2026-09-08 — Max (via Claude)
 
