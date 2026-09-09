@@ -73,6 +73,27 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   (cross-linked from `CLAUDE.md`) documenting the gotcha so it isn't missed
   again. Pushed this doc directly to `main` (Stephen's call, single-doc
   change).
+- Added a "Run on your phone" section to `README.md`: EAS dev client build
+  steps (`expo-dev-client` + `eas.json`'s `development` profile were already
+  configured, just never documented end-to-end), plus explicit macOS vs.
+  WSL2 nuances since Max and Stephen develop on different platforms but are
+  both iPhone users — `expo run:ios` only works on macOS (needs Xcode), so
+  WSL2 always needs the EAS cloud build path; WSL2 also doesn't share the
+  phone's Wi-Fi by default, so `npx expo start --tunnel` (not the default
+  LAN QR) is needed to reach a phone from Stephen's machine.
+- Added `docs/dev/` and `docs/dev/database-access.md`: how to run the local
+  Supabase CLI stack (`npx supabase start`) and connect DBeaver (Max) or
+  pgAdmin (Stephen — DBeaver has no native Windows build) to it, ahead of
+  Garage feature schema work. Added `supabase` as a devDependency so
+  `npx supabase` works identically on both platforms without a separate
+  Homebrew/Scoop install. Verified end-to-end before writing the doc: ran
+  `supabase init` + `supabase start` for real, confirmed both migrations
+  (`0001_phase1_map_schema.sql`, `0002_user_profiles.sql`) apply cleanly
+  with PostGIS 3.3, and confirmed the DB port is reachable over plain TCP
+  (what a GUI client actually connects to) before tearing it down. Also
+  noted Docker Desktop's WSL2 port-forwarding is what makes a Windows-native
+  pgAdmin reach the WSL2-hosted database — a different, simpler mechanism
+  than the Expo/phone networking issue above.
 
 ### 2026-09-08 — Max (via Claude)
 
