@@ -61,6 +61,18 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   resolutions for decisions #1/#2/#6 already on `main` and carrying forward
   the additive entries (#7's reconfirmation note, #9, #10) that only existed
   on the branch. Pushed as a new commit rather than force-pushing.
+- Opened PR #52 to close out Milestone 1 for real (#50's `format:check` fix,
+  `npm run ci`, `docs/rules/local-ci-checks.md`) — still pending review as of
+  this entry. While verifying it, found that PR #44 ("Closes #1, #2, #3, #4.")
+  and PR #48 ("Closes #5, #6, #7.") each only auto-closed the first issue
+  listed — GitHub only honors a closing keyword for the issue immediately
+  following it, not a comma-separated list. Manually closed #6 and #7 (work
+  was done in #48, just never actually closed), confirmed via the GitHub
+  API that PR #52 correctly repeats the keyword per issue for #2/#3/#4/#50,
+  and added [`docs/rules/pull-requests.md`](rules/pull-requests.md)
+  (cross-linked from `CLAUDE.md`) documenting the gotcha so it isn't missed
+  again. Pushed this doc directly to `main` (Stephen's call, single-doc
+  change).
 
 ### 2026-09-08 — Max (via Claude)
 

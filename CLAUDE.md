@@ -46,6 +46,8 @@ on the human to remember.
   (https://github.com/qwewe6/rcx_drive/milestones). `DECISIONLOG.md` is only for
   smaller cross-cutting decisions that don't warrant their own issue.
 - Branch off `main`; open a PR rather than pushing straight to `main` (see the
-  scaffolding plan §5, step 9).
+  scaffolding plan §5, step 9). Full PR conventions, including a closing-issue
+  keyword gotcha worth knowing before you write a PR description:
+  [`docs/rules/pull-requests.md`](docs/rules/pull-requests.md).
 - Docs are Markdown, one topic per file; prefer adding to an existing doc/table
   over creating a near-duplicate.
