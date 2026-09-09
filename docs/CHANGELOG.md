@@ -61,6 +61,24 @@ entry in [`DECISIONLOG.md`](DECISIONLOG.md), linked from here.
   resolutions for decisions #1/#2/#6 already on `main` and carrying forward
   the additive entries (#7's reconfirmation note, #9, #10) that only existed
   on the branch. Pushed as a new commit rather than force-pushing.
+- Closed out Milestone 1 (Foundation & Scaffolding) for real: fixed
+  [issue #50](https://github.com/qwewe6/rcx_drive/issues/50) by running
+  `prettier --write .` across the repo (7 files — docs + one `.geojson`,
+  all whitespace/formatting only, verified the `.geojson`'s parsed data is
+  byte-for-byte identical before/after). `npm run format:check` — and the
+  full CI suite — now passes clean on `main` for the first time.
+  Confirmed `prettier` was already a pinned devDependency (`^3.9.6`, added
+  in the original Milestone 1 scaffold) rather than re-adding it. Added a
+  combined `npm run ci` script (`typecheck` → `lint` → `format:check` →
+  `test -- --ci`, matching `.github/workflows/ci.yml` step-for-step) so the
+  same checks are one command to run locally before pushing, and added
+  `docs/rules/local-ci-checks.md` (cross-linked from `CLAUDE.md`) making
+  that a hard rule — issue #50 happened because CI was the first place
+  these checks ever ran. Closes #2 (EAS dev build profile — already
+  configured in `eas.json` since Milestone 1, just never closed), #3
+  (lint/format/typecheck/test baseline — same story, plus now actually
+  green), #4 (GitHub Actions CI — workflow existed but had never once
+  passed until this fix), and #50.
 
 ### 2026-09-08 — Max (via Claude)
 

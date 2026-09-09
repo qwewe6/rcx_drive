@@ -29,20 +29,20 @@ GitHub milestones/issues are reviewed and approved.
 
 ## 3. Core tech stack (proposed)
 
-| Concern | Choice | Notes |
-|---|---|---|
-| App framework | Expo (SDK, latest stable) + `expo-router` | File-based routing, works for mobile-first nav |
-| Language | TypeScript | Strict mode |
-| Navigation | `expo-router` (built on React Navigation) | |
-| State management | Zustand (or Redux Toolkit if team prefers) | Lightweight, minimal boilerplate |
-| Backend / DB | **Open decision — see §6** | Needs Postgres + PostGIS for spatial/segment matching |
-| Auth | Backend-dependent (Supabase Auth, or custom JWT) | |
-| Maps | Mapbox GL (or MapLibre GL for open-source/no-cost option) | Needed for heatmap + line/segment rendering |
-| BLE (Racebox) | `react-native-ble-plx` | Requires EAS dev client, not Expo Go |
-| Background GPS | `expo-location` (background mode) | For continuous track recording during a crawl |
-| Push notifications | `expo-notifications` | Kudos/social loop, "someone stole your KOM" style alerts |
-| CI/CD | EAS Build + EAS Submit, GitHub Actions for lint/test | |
-| Testing | Jest + React Native Testing Library | |
+| Concern            | Choice                                                    | Notes                                                    |
+| ------------------ | --------------------------------------------------------- | -------------------------------------------------------- |
+| App framework      | Expo (SDK, latest stable) + `expo-router`                 | File-based routing, works for mobile-first nav           |
+| Language           | TypeScript                                                | Strict mode                                              |
+| Navigation         | `expo-router` (built on React Navigation)                 |                                                          |
+| State management   | Zustand (or Redux Toolkit if team prefers)                | Lightweight, minimal boilerplate                         |
+| Backend / DB       | **Open decision — see §6**                                | Needs Postgres + PostGIS for spatial/segment matching    |
+| Auth               | Backend-dependent (Supabase Auth, or custom JWT)          |                                                          |
+| Maps               | Mapbox GL (or MapLibre GL for open-source/no-cost option) | Needed for heatmap + line/segment rendering              |
+| BLE (Racebox)      | `react-native-ble-plx`                                    | Requires EAS dev client, not Expo Go                     |
+| Background GPS     | `expo-location` (background mode)                         | For continuous track recording during a crawl            |
+| Push notifications | `expo-notifications`                                      | Kudos/social loop, "someone stole your KOM" style alerts |
+| CI/CD              | EAS Build + EAS Submit, GitHub Actions for lint/test      |                                                          |
+| Testing            | Jest + React Native Testing Library                       |                                                          |
 
 ## 4. Repo / folder structure
 

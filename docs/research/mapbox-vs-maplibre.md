@@ -21,11 +21,11 @@ But a renderer doesn't ship with map data. It still needs a **tile source**
 (the actual road/terrain/imagery data it draws), and that's where the real
 cost comparison lives:
 
-| Approach | Cost at scale | Trade-off |
-|---|---|---|
-| Hosted vector-tile provider (MapTiler, Stadia Maps) | MapTiler: free tier → $295/mo unlimited. Stadia Maps: free → $20 → $80 → $250/mo tiers; cheaper than MapTiler at moderate volume | Someone else's infra/ops; usage-tiered, not per-MAU |
-| Self-hosted (Protomaps PMTiles served from Cloudflare R2, or your own tegola/Martin server off a Postgres+PostGIS extract) | "A few dollars, often zero" per month even at real volume — R2 has free egress | You own uptime, data updates, and the pipeline |
-| Esri World Imagery (satellite) | **2,000,000 tile requests/month free** | Imagery/satellite only, not vector road styling |
+| Approach                                                                                                                   | Cost at scale                                                                                                                    | Trade-off                                           |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Hosted vector-tile provider (MapTiler, Stadia Maps)                                                                        | MapTiler: free tier → $295/mo unlimited. Stadia Maps: free → $20 → $80 → $250/mo tiers; cheaper than MapTiler at moderate volume | Someone else's infra/ops; usage-tiered, not per-MAU |
+| Self-hosted (Protomaps PMTiles served from Cloudflare R2, or your own tegola/Martin server off a Postgres+PostGIS extract) | "A few dollars, often zero" per month even at real volume — R2 has free egress                                                   | You own uptime, data updates, and the pipeline      |
+| Esri World Imagery (satellite)                                                                                             | **2,000,000 tile requests/month free**                                                                                           | Imagery/satellite only, not vector road styling     |
 
 So "MapLibre is free" is conditionally true: free if self-hosted or landed on
 a provider's free/low tier, not free in an absolute sense. It's more accurate
@@ -113,6 +113,7 @@ Reasoning:
 ## 6. When to revisit
 
 Worth re-opening this decision if/when:
+
 - We want turn-by-turn navigation to a line/feature (not currently planned).
 - We want Mapbox Studio-grade style design tooling and are willing to pay for
   the time saved.

@@ -40,6 +40,14 @@ before finishing. Full rule: [`docs/rules/changelog.md`](docs/rules/changelog.md
 If you're an agent finishing a task here, do this as your last step — don't rely
 on the human to remember.
 
+## Hard rule: run CI checks locally before opening a PR
+
+**Run `npm run ci` before pushing or opening a PR** — it runs the same
+typecheck/lint/format/test steps as `.github/workflows/ci.yml`, in the same
+order. Full rule: [`docs/rules/local-ci-checks.md`](docs/rules/local-ci-checks.md).
+Don't rely on the Actions tab to catch a failure you could've caught locally
+first.
+
 ## Repo conventions
 
 - GitHub milestones/issues are the source of truth for feature-level scope
